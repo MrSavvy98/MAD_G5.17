@@ -9,7 +9,7 @@
     <string name="sign">Don\'t have an account?</string>
     <string name="Greet1">Hello!</string>
     <string name="Att">Attendance and Leave Requests</string>
-    <string name="Progress">Preogress Reports</string>
+    <string name="Progress">Progress Reports</string>
     <string name="View_prfle">View Profile</string>
     <string name="assgn">View Tasks</string>
     <string name="Trble">Having Trouble?</string>
@@ -21,7 +21,6 @@
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
-
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
@@ -30,4 +29,5 @@
     <string name="atte">Attendance</string>
     <string name="Leave">Leave Requests</string>
     <string name="signout">Sign Out</string>
+    <string name="LReq">Leave Requests</string>
 </resources>
