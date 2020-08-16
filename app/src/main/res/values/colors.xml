@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#338a3e</color>
+    <color name="colorAccent">#98ee99</color>
+    <color name="colorActionbarColor">#66bb6a</color>
+    <color name="buttonBackground">#98ee99</color>
+</resources>
