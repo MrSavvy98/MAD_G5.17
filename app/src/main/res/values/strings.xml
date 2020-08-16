@@ -26,4 +26,8 @@
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
     <string name="title_activity_attendance2">Attendance</string>
+    <string name="back">Back</string>
+    <string name="atte">Attendance</string>
+    <string name="Leave">Leave Requests</string>
+    <string name="signout">Sign Out</string>
 </resources>
