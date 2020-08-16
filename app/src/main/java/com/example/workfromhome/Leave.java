@@ -44,14 +44,14 @@ public class Leave extends AppCompatActivity {
                 startActivity(intent2);
             }
         });
-//        button2.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//
-//                Intent intent3 = new Intent(Leave.this, UpdateLeave.class);
-//                startActivity(intent3);
-//            }
-//        });
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent3 = new Intent(Leave.this, UpdateLeave.class);
+                startActivity(intent3);
+            }
+        });
 //        button4.setOnClickListener(new View.OnClickListener() {
 //            @Override
 //            public void onClick(View view) {
