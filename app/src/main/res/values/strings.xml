@@ -30,4 +30,5 @@
     <string name="Leave">Leave Requests</string>
     <string name="signout">Sign Out</string>
     <string name="LReq">Leave Requests</string>
+    <string name="LF">Leave Form</string>
 </resources>
