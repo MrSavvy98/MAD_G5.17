@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">WorkFromHome</string>
+    <string name="application_name">Work From Home</string>
+    <string name="greet">Stay Home Stay Safe</string>
+    <string name="un">Username</string>
+    <string name="pwd">Password</string>
+    <string name="login">Login</string>
+    <string name="signUp">Sign Up</string>
+    <string name="sign">Don\'t have an account?</string>
+    <string name="Greet1">Hello!</string>
+    <string name="Att">Attendance and Leave Requests</string>
+    <string name="Progress">Preogress Reports</string>
+    <string name="View_prfle">View Profile</string>
+    <string name="assgn">View Tasks</string>
+    <string name="Trble">Having Trouble?</string>
+    <string name="phone">0112335456</string>
 </resources>
