@@ -96,15 +96,14 @@
 
         <View
             android:id="@+id/view8"
-            android:layout_width="350dp"
-            android:layout_height="466dp"
+            android:layout_width="361dp"
+            android:layout_height="507dp"
             android:background="#00BCD4"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.491"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.737" />
+            app:layout_constraintVertical_bias="0.625" />
 
         <EditText
             android:id="@+id/editTextTextPersonName10"
@@ -138,7 +137,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="1e"
+            android:text="1"
             android:textSize="14sp"
             app:layout_constraintBaseline_toBaselineOf="@+id/textView77"
             app:layout_constraintEnd_toEndOf="parent"
@@ -302,6 +301,7 @@
             android:layout_width="160dp"
             android:layout_height="42dp"
             android:text="Update Leave"
+            android:textColor="#000000"
             android:textSize="24sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -334,6 +334,18 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.893" />
+
+        <TextView
+            android:id="@+id/textView86"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/LF"
+            android:textColor="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/view6"
+            app:layout_constraintVertical_bias="0.179" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

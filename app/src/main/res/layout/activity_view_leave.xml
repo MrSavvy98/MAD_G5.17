@@ -342,7 +342,7 @@
             android:id="@+id/button20"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Delete"
+            android:text="Update"
             app:layout_constraintBaseline_toBaselineOf="@+id/button19"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.532"
@@ -353,7 +353,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="44dp"
-            android:text="Button"
+            android:text="Delete"
             app:layout_constraintBaseline_toBaselineOf="@+id/button20"
             app:layout_constraintEnd_toEndOf="parent" />
 
