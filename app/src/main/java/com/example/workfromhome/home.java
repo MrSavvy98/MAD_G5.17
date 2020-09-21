@@ -14,7 +14,7 @@ public class home extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
-        final Button btn_attendance = findViewById(R.id.btn_attendance);
+        final Button btn_attendance = findViewById(R.id.btn_Attendance);
 
         btn_attendance.setOnClickListener(new View.OnClickListener() {
             @Override

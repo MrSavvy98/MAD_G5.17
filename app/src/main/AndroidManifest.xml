@@ -15,10 +15,6 @@
         <activity android:name=".Leave" />
         <activity android:name=".MarkAttendance" />
         <activity android:name=".Attendance" />
-        <activity
-            android:name=".Attendance2Activity"
-            android:label="@string/title_activity_attendance2"
-            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".home" />
         <activity android:name=".MainActivity">
             <intent-filter>
