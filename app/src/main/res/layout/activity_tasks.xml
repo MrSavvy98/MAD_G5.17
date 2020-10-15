@@ -4,56 +4,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".tasks">
+    tools:context=".tasks"
+    android:background="@drawable/qq">
 
     <Button
-        android:id="@+id/button21"
+        android:id="@+id/deleteBtn"
         android:layout_width="160dp"
         android:layout_height="30dp"
-        android:background="#00BCD4"
-        android:fadingEdge="horizontal"
-        android:filterTouchesWhenObscured="true"
-        android:fontFamily="@font/signika_bold"
-        android:onClick="update"
-        android:text="Update"
-        android:textColor="#000000"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.432"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.832" />
-
-    <Button
-        android:id="@+id/button23"
-        android:layout_width="160dp"
-        android:layout_height="30dp"
-        android:background="#E91E63"
+        android:background="@drawable/custom_buttons"
         android:fadingEdge="horizontal"
         android:filterTouchesWhenObscured="true"
         android:fontFamily="@font/signika_bold"
         android:text="Delete"
-        android:textColor="#000000"
+        android:textColor="#B20209"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.432"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.916" />
-
-    <TextView
-        android:id="@+id/textView27"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Task 4 - Reply emails"
-        android:textColor="#000000"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.374"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.742" />
 
     <TextView
         android:id="@+id/textView17"
@@ -70,11 +39,12 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button17"
+        android:id="@+id/home"
         style="@android:style/Widget.DeviceDefault.Button.Borderless.Small"
         android:layout_width="92dp"
         android:layout_height="37dp"
         android:layout_marginTop="8dp"
+        android:onClick="home"
         android:text="Home"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -149,12 +119,13 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView22"
-        android:layout_width="wrap_content"
+        android:id="@+id/tveid"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Emp ID - EID1190"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
         android:textColor="#000000"
-        android:textSize="18sp"
+        android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -164,12 +135,13 @@
         app:layout_constraintVertical_bias="0.402" />
 
     <TextView
-        android:id="@+id/textView23"
-        android:layout_width="wrap_content"
+        android:id="@+id/date"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Data - 27/02/2021"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
         android:textColor="#000000"
-        android:textSize="18sp"
+        android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -182,7 +154,6 @@
         android:id="@+id/textView24"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Task 3 - Check emails"
         android:textColor="#000000"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -193,30 +164,16 @@
         app:layout_constraintVertical_bias="0.683" />
 
     <TextView
-        android:id="@+id/textView25"
-        android:layout_width="wrap_content"
+        android:id="@+id/tasks"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Task 2 - Reply emails"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
         android:textColor="#000000"
-        android:textSize="20sp"
+        android:textSize="36sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.374"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.62" />
-
-    <TextView
-        android:id="@+id/textView26"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Task 1 - Check emails"
-        android:textColor="#000000"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.383"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.557" />
+        app:layout_constraintVertical_bias="0.592" />
 </androidx.constraintlayout.widget.ConstraintLayout>

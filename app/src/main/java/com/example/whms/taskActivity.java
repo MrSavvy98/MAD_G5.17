@@ -1,18 +1,25 @@
 package com.example.whms;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class MainActivity extends AppCompatActivity {
+import androidx.appcompat.app.AppCompatActivity;
+
+import static com.example.whms.R.layout.activity_main;
+
+
+public class taskActivity extends AppCompatActivity {
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(activity_main);
+
     }
+
 
     public void assignTask(View view) {
         Intent intent1 = new Intent(this, assign_task.class);

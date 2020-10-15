@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".update"
-    android:background="@drawable/qq">
+    tools:context=".update">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -105,7 +104,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/signika_light"
-                android:text="Update"
+                android:text="Delete"
                 android:textSize="40sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -144,11 +143,11 @@
                 android:layout_marginEnd="92dp"
                 android:layout_marginRight="92dp"
                 android:layout_marginBottom="157dp"
-                android:background="@drawable/custom_buttons"
+                android:background="#00BCD4"
                 android:fadingEdge="horizontal"
                 android:filterTouchesWhenObscured="true"
                 android:fontFamily="@font/signika_bold"
-                android:text="Update"
+                android:text="Delete"
                 android:textColor="#000000"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -166,7 +165,7 @@
                 android:layout_marginEnd="69dp"
                 android:layout_marginRight="69dp"
                 android:layout_marginBottom="20dp"
-                android:text="Please insert the Employee ID of the person whose tasks you want to update.."
+                android:text="Please insert the Employee ID of the person whose tasks you want to delete.."
                 android:textColor="@color/common_google_signin_btn_text_dark_focused"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toTopOf="@+id/deletebtn"

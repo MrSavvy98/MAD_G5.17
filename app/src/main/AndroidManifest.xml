@@ -9,12 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".update"></activity>
+        <activity android:name=".delete"></activity>
+        <activity android:name=".confirm_update" />
+        <activity android:name=".login" />
+        <activity android:name=".update" />
         <activity android:name=".tasks" />
         <activity android:name=".viewAssigned1" />
-        <activity android:name=".addTask" />
+        <activity android:name=".add_task" />
         <activity android:name=".assign_task" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".taskActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
